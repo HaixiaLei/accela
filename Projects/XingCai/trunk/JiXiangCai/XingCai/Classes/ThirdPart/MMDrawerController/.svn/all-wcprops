@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController
+END
+UIViewController+MMDrawerController.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController/UIViewController+MMDrawerController.h
+END
+MMDrawerController+Subclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController/MMDrawerController+Subclass.h
+END
+MMDrawerBarButtonItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController/MMDrawerBarButtonItem.h
+END
+UIViewController+MMDrawerController.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController/UIViewController+MMDrawerController.m
+END
+MMDrawerController.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController/MMDrawerController.h
+END
+MMDrawerBarButtonItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController/MMDrawerBarButtonItem.m
+END
+MMDrawerVisualState.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController/MMDrawerVisualState.h
+END
+MMDrawerController.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController/MMDrawerController.m
+END
+MMDrawerVisualState.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/iPhone/!svn/ver/968/XingCai/trunk/JiXiangCai/XingCai/Classes/ThirdPart/MMDrawerController/MMDrawerVisualState.m
+END

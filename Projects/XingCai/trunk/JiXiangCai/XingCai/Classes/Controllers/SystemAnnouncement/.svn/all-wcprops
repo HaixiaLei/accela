@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/iPhone/!svn/ver/1357/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/SystemAnnouncement
+END
+AnnouncementViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1357/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/SystemAnnouncement/AnnouncementViewController.h
+END
+AnnouncementDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/iPhone/!svn/ver/1357/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/SystemAnnouncement/AnnouncementDetailViewController.h
+END
+AnnouncementViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1357/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/SystemAnnouncement/AnnouncementViewController.m
+END
+AnnouncementDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/iPhone/!svn/ver/1357/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/SystemAnnouncement/AnnouncementDetailViewController.m
+END
+AnnouncementViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1357/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/SystemAnnouncement/AnnouncementViewController.xib
+END
+AnnouncementDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/iPhone/!svn/ver/1357/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/SystemAnnouncement/AnnouncementDetailViewController.xib
+END

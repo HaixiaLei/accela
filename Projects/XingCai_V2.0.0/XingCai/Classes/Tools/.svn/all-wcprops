@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools
+END
+CustomMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/CustomMacros.h
+END
+EnCodeDeCode.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/EnCodeDeCode.h
+END
+NSUserDefaultsManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/NSUserDefaultsManager.h
+END
+AppAlertView.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/AppAlertView.h
+END
+UIView+Helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/UIView+Helper.h
+END
+Utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/Utility.h
+END
+EnCodeDeCode.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/EnCodeDeCode.m
+END
+NSUserDefaultsManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/NSUserDefaultsManager.m
+END
+AppAlertView.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/AppAlertView.m
+END
+UIView+Helper.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/UIView+Helper.m
+END
+Utility.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/iPhone/!svn/ver/1814/XingCai/branches/XingCai_V2.0.0/XingCai/Classes/Tools/Utility.m
+END

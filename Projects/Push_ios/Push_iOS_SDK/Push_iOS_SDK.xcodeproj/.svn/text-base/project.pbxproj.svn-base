@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95BC27041AD4D86B00DB1452 /* Push_iOS_SDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 95BC27031AD4D86B00DB1452 /* Push_iOS_SDK.h */; };
+		95BC27061AD4D86B00DB1452 /* Push_iOS_SDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BC27051AD4D86B00DB1452 /* Push_iOS_SDK.m */; };
+		95BC27321AD5109300DB1452 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BC27311AD5109300DB1452 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95BC26FE1AD4D86B00DB1452 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				95BC27041AD4D86B00DB1452 /* Push_iOS_SDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95BC27001AD4D86B00DB1452 /* libPush_iOS_SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPush_iOS_SDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BC27031AD4D86B00DB1452 /* Push_iOS_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Push_iOS_SDK.h; sourceTree = "<group>"; };
+		95BC27051AD4D86B00DB1452 /* Push_iOS_SDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Push_iOS_SDK.m; sourceTree = "<group>"; };
+		95BC27301AD5109300DB1452 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		95BC27311AD5109300DB1452 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95BC26FD1AD4D86B00DB1452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95BC26F71AD4D86B00DB1452 = {
+			isa = PBXGroup;
+			children = (
+				95BC27021AD4D86B00DB1452 /* Push_iOS_SDK */,
+				95BC27011AD4D86B00DB1452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95BC27011AD4D86B00DB1452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95BC27001AD4D86B00DB1452 /* libPush_iOS_SDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95BC27021AD4D86B00DB1452 /* Push_iOS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				95BC27031AD4D86B00DB1452 /* Push_iOS_SDK.h */,
+				95BC27051AD4D86B00DB1452 /* Push_iOS_SDK.m */,
+				95BC27301AD5109300DB1452 /* JSONKit.h */,
+				95BC27311AD5109300DB1452 /* JSONKit.m */,
+			);
+			path = Push_iOS_SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95BC26FF1AD4D86B00DB1452 /* Push_iOS_SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BC27141AD4D86B00DB1452 /* Build configuration list for PBXNativeTarget "Push_iOS_SDK" */;
+			buildPhases = (
+				95BC26FC1AD4D86B00DB1452 /* Sources */,
+				95BC26FD1AD4D86B00DB1452 /* Frameworks */,
+				95BC26FE1AD4D86B00DB1452 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Push_iOS_SDK;
+			productName = Push_iOS_SDK;
+			productReference = 95BC27001AD4D86B00DB1452 /* libPush_iOS_SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95BC26F81AD4D86B00DB1452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Sywine;
+				TargetAttributes = {
+					95BC26FF1AD4D86B00DB1452 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 95BC26FB1AD4D86B00DB1452 /* Build configuration list for PBXProject "Push_iOS_SDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95BC26F71AD4D86B00DB1452;
+			productRefGroup = 95BC27011AD4D86B00DB1452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95BC26FF1AD4D86B00DB1452 /* Push_iOS_SDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95BC26FC1AD4D86B00DB1452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BC27321AD5109300DB1452 /* JSONKit.m in Sources */,
+				95BC27061AD4D86B00DB1452 /* Push_iOS_SDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95BC27121AD4D86B00DB1452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95BC27131AD4D86B00DB1452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95BC27151AD4D86B00DB1452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95BC27161AD4D86B00DB1452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95BC26FB1AD4D86B00DB1452 /* Build configuration list for PBXProject "Push_iOS_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BC27121AD4D86B00DB1452 /* Debug */,
+				95BC27131AD4D86B00DB1452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BC27141AD4D86B00DB1452 /* Build configuration list for PBXNativeTarget "Push_iOS_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BC27151AD4D86B00DB1452 /* Debug */,
+				95BC27161AD4D86B00DB1452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95BC26F81AD4D86B00DB1452 /* Project object */;
+}

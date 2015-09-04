@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/iPhone/!svn/ver/1823/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account
+END
+AccountViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iPhone/!svn/ver/1808/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/AccountViewController.h
+END
+ZHDetailCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/iPhone/!svn/ver/1675/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZHDetailCell.xib
+END
+LotteryPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iPhone/!svn/ver/1622/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/LotteryPicker.h
+END
+AccountViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iPhone/!svn/ver/1808/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/AccountViewController.m
+END
+BindCardViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/iPhone/!svn/ver/1818/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BindCardViewController.xib
+END
+ZHDetailCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/iPhone/!svn/ver/1639/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZHDetailCell.h
+END
+LotteryPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iPhone/!svn/ver/1622/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/LotteryPicker.m
+END
+BindCardViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/iPhone/!svn/ver/1816/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BindCardViewController.h
+END
+ZHDetailCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/iPhone/!svn/ver/1675/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZHDetailCell.m
+END
+BindCardViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/iPhone/!svn/ver/1816/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BindCardViewController.m
+END
+ATMViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/iPhone/!svn/ver/1362/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ATMViewController.xib
+END
+ATMViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1352/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ATMViewController.h
+END
+ZHRecordsDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/iPhone/!svn/ver/1644/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZHRecordsDetailViewController.xib
+END
+ZhuiHaoDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/iPhone/!svn/ver/1627/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZhuiHaoDetailViewController.xib
+END
+ZHRecordsDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/iPhone/!svn/ver/1639/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZHRecordsDetailViewController.h
+END
+ATMViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1637/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ATMViewController.m
+END
+BetDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iPhone/!svn/ver/1666/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BetDetailViewController.xib
+END
+ZhuiHaoDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/iPhone/!svn/ver/1626/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZhuiHaoDetailViewController.h
+END
+BetSearchViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iPhone/!svn/ver/1648/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BetSearchViewController.xib
+END
+ZHRecordsDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/iPhone/!svn/ver/1639/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZHRecordsDetailViewController.m
+END
+BetDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iPhone/!svn/ver/1625/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BetDetailViewController.h
+END
+ZhuiHaoDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/iPhone/!svn/ver/1626/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZhuiHaoDetailViewController.m
+END
+BetSearchViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iPhone/!svn/ver/1622/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BetSearchViewController.h
+END
+BindCardNameAndAccountViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1818/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BindCardNameAndAccountViewController.xib
+END
+BindCardInsertInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/iPhone/!svn/ver/1818/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BindCardInsertInfoViewController.xib
+END
+BetDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iPhone/!svn/ver/1662/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BetDetailViewController.m
+END
+ZhuiHaoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iPhone/!svn/ver/1674/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZhuiHaoViewController.xib
+END
+BetSearchViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iPhone/!svn/ver/1821/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BetSearchViewController.m
+END
+BindCardNameAndAccountViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1818/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BindCardNameAndAccountViewController.h
+END
+BindCardInsertInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/iPhone/!svn/ver/1818/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BindCardInsertInfoViewController.h
+END
+ZhuiHaoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iPhone/!svn/ver/1626/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZhuiHaoViewController.h
+END
+CashViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iPhone/!svn/ver/1682/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/CashViewController.xib
+END
+BankPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BankPicker.h
+END
+ZhuiHaoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iPhone/!svn/ver/1821/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/ZhuiHaoViewController.m
+END
+BindCardInsertInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/iPhone/!svn/ver/1818/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BindCardInsertInfoViewController.m
+END
+BindCardNameAndAccountViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1818/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BindCardNameAndAccountViewController.m
+END
+CashViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/CashViewController.h
+END
+BankPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/BankPicker.m
+END
+CashViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iPhone/!svn/ver/1696/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/CashViewController.m
+END
+AccountViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iPhone/!svn/ver/1823/XingCai/trunk/XingCai_2.0/XingCai/Classes/Controllers/Account/AccountViewController.xib
+END

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/iPhone/!svn/ver/1406/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules
+END
+PlayRulesDetailObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1406/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/PlayRulesDetailObject.h
+END
+MenuObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/MenuObject.h
+END
+KindOfLottery.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/KindOfLottery.h
+END
+ChildMenuObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/ChildMenuObject.h
+END
+PlayRulesDetailObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1289/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/PlayRulesDetailObject.m
+END
+SelectAreaObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/SelectAreaObject.h
+END
+MenuObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/iPhone/!svn/ver/1260/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/MenuObject.m
+END
+KindOfLottery.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/iPhone/!svn/ver/1264/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/KindOfLottery.m
+END
+SelectAreaObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/iPhone/!svn/ver/1288/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/SelectAreaObject.m
+END
+ChildMenuObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/iPhone/!svn/ver/1260/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/ChildMenuObject.m
+END
+LayoutObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/LayoutObject.h
+END
+PlayRulesObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/PlayRulesObject.h
+END
+NfdPrizeObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/NfdPrizeObject.h
+END
+LayoutObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/iPhone/!svn/ver/1288/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/LayoutObject.m
+END
+ModeObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/ModeObject.h
+END
+PlayRulesObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/iPhone/!svn/ver/1260/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/PlayRulesObject.m
+END
+NfdPrizeObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/iPhone/!svn/ver/1277/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/NfdPrizeObject.m
+END
+MethodVersionObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/MethodVersionObject.h
+END
+ModeObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/iPhone/!svn/ver/1260/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/ModeObject.m
+END
+PrizeObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/iPhone/!svn/ver/1404/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/PrizeObject.h
+END
+MethodVersionObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/iPhone/!svn/ver/1260/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/MethodVersionObject.m
+END
+PrizeObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/iPhone/!svn/ver/1289/XingCai/trunk/JiXiangCai/XingCai/Classes/Models/PlayRules/PrizeObject.m
+END

@@ -1,0 +1,63 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import "Utility.h"
+    #import "MBProgressHUD.h"
+    #import "UIView+Helper.h"
+    #import "AppHttpManager.h"
+    #import "DDASLLogger.h"
+    #import "DDTTYLogger.h"
+    #import "DDFileLogger.h"
+    #import "AppCacheManager.h"
+    #import "UserInfomation.h"
+    #import "NSObject+ObjectMap.h"
+    #import "CustomMacros.h"
+
+#endif
+
+#define IS_IPAD ([[UIDevice currentDevice] respondsToSelector:@selector(userInterfaceIdiom)] && [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+
+#define IS_IPHONE5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define IS_RETINA ([UIScreen mainScreen].scale == 2.0 ? YES : NO)
+
+#define ScreenSize ([UIScreen mainScreen].bounds.size)
+
+#define FILEMANAGER [NSFileManager defaultManager]
+
+#define SystemVersion [[UIDevice currentDevice].systemVersion floatValue]
+
+#ifdef DEBUG
+#define DLog(...) NSLog(__VA_ARGS__)
+#else
+#define DLog(...) /* */
+#endif
+
+#ifdef DEBUG
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#else
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#endif
+
+
+#define IOS_VERSION  [[UIDevice currentDevice].systemVersion doubleValue]
+
+#define NotificationNameGetVersion      @"NotificationNameGetVersion"
+#define Notification_JiangQi_OutTime    @"Notification_JiangQi_OutTime"
+
+
+#define NotificationLoginSucceeded      @"NotificationLoginSucceeded"

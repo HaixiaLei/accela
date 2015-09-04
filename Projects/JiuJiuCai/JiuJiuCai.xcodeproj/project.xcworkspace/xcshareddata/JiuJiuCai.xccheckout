@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9FE461C5-7ACB-4DCE-90F0-6699CDC3858D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JiuJiuCai</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>acaad440-e639-c949-9250-6e351c0e771d++1113</key>
+		<string>https://192.168.20.253/svn/iPhone/XingCai/trunk/JiuJiuCai</string>
+		<key>acaad440-e639-c949-9250-6e351c0e771d++8344</key>
+		<string>https://192.168.20.253/svn/iPhone/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JiuJiuCai.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>acaad440-e639-c949-9250-6e351c0e771d++1113</key>
+		<string>../../../JiuJiuCai</string>
+		<key>acaad440-e639-c949-9250-6e351c0e771d++8344</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>acaad440-e639-c949-9250-6e351c0e771d++1113</key>
+		<string>https://192.168.20.253/svn/iPhone</string>
+		<key>acaad440-e639-c949-9250-6e351c0e771d++8344</key>
+		<string>https://192.168.20.253/svn/iPhone</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.20.253/svn/iPhone/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/JiuJiuCai.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>acaad440-e639-c949-9250-6e351c0e771d++8344</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>acaad440-e639-c949-9250-6e351c0e771d++1113</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JiuJiuCai</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>acaad440-e639-c949-9250-6e351c0e771d++8344</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JiuJiuCaiLoad</string>
+		</dict>
+	</array>
+</dict>
+</plist>

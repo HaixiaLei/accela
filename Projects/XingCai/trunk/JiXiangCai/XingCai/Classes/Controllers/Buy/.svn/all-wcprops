@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/iPhone/!svn/ver/1608/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy
+END
+BuyViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/iPhone/!svn/ver/1555/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/BuyViewController.xib
+END
+BuyChooseViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iPhone/!svn/ver/1608/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/BuyChooseViewController.xib
+END
+BuyFinishViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iPhone/!svn/ver/1597/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/BuyFinishViewController.xib
+END
+EventsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1381/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/EventsViewController.xib
+END
+BuyViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/iPhone/!svn/ver/1496/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/BuyViewController.h
+END
+BuyFinishViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iPhone/!svn/ver/1488/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/BuyFinishViewController.h
+END
+BuyChooseViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iPhone/!svn/ver/1602/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/BuyChooseViewController.h
+END
+InfoOfPlayMethodViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/iPhone/!svn/ver/1083/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/InfoOfPlayMethodViewController.xib
+END
+SelectedNumber.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/iPhone/!svn/ver/1312/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/SelectedNumber.h
+END
+EventsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/iPhone/!svn/ver/1284/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/EventsViewController.h
+END
+BuyViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/iPhone/!svn/ver/1604/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/BuyViewController.m
+END
+BuyFinishViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iPhone/!svn/ver/1597/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/BuyFinishViewController.m
+END
+BuyChooseViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iPhone/!svn/ver/1608/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/BuyChooseViewController.m
+END
+InfoOfPlayMethodViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/iPhone/!svn/ver/969/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/InfoOfPlayMethodViewController.h
+END
+SelectedNumber.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/iPhone/!svn/ver/1312/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/SelectedNumber.m
+END
+EventView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/iPhone/!svn/ver/1282/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/EventView.xib
+END
+EventsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/iPhone/!svn/ver/1298/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/EventsViewController.m
+END
+InfoOfPlayMethodViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iPhone/!svn/ver/1269/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/InfoOfPlayMethodViewController.m
+END
+buyFinshObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/iPhone/!svn/ver/1457/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/buyFinshObject.h
+END
+buyFinshObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/iPhone/!svn/ver/1457/XingCai/trunk/JiXiangCai/XingCai/Classes/Controllers/Buy/buyFinshObject.m
+END

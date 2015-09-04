@@ -1,0 +1,467 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/iPhone/!svn/ver/1817/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account
+END
+GoBindBankcardViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/iPhone/!svn/ver/1785/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/GoBindBankcardViewController.m
+END
+LotteryPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/LotteryPicker.h
+END
+LotteryPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/LotteryPicker.m
+END
+BindBankCardConfirmViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/iPhone/!svn/ver/1798/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardConfirmViewController.xib
+END
+ATMViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ATMViewController.xib
+END
+AtmPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/AtmPicker.h
+END
+BindBankCardConfirmViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/iPhone/!svn/ver/1773/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardConfirmViewController.h
+END
+BindBankCardConfirmViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/iPhone/!svn/ver/1773/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardConfirmViewController.m
+END
+AtmPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/AtmPicker.m
+END
+SetTiKuanPasswordViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/iPhone/!svn/ver/1800/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/SetTiKuanPasswordViewController.xib
+END
+ZhuiHaoDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ZhuiHaoDetailViewController.xib
+END
+BetDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BetDetailViewController.xib
+END
+ReloadDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/iPhone/!svn/ver/1778/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ReloadDetailViewController.h
+END
+SetTiKuanPasswordViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/iPhone/!svn/ver/1782/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/SetTiKuanPasswordViewController.h
+END
+ZhuiHaoDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ZhuiHaoDetailViewController.h
+END
+SetPwdSuccessViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/iPhone/!svn/ver/1800/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/SetPwdSuccessViewController.xib
+END
+BetSearchViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BetSearchViewController.xib
+END
+BindBankCardCheckViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/iPhone/!svn/ver/1796/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardCheckViewController.xib
+END
+ReloadDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/iPhone/!svn/ver/1785/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ReloadDetailViewController.m
+END
+BindBankCardInsertInfoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/iPhone/!svn/ver/1817/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardInsertInfoViewController.xib
+END
+SetTiKuanPasswordViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/iPhone/!svn/ver/1787/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/SetTiKuanPasswordViewController.m
+END
+ZhuiHaoDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ZhuiHaoDetailViewController.m
+END
+BindBankCardCheckViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/iPhone/!svn/ver/1787/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardCheckViewController.h
+END
+BetSearchViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BetSearchViewController.h
+END
+ReloadViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/iPhone/!svn/ver/1778/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ReloadViewController.xib
+END
+ReloadFinishViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/iPhone/!svn/ver/1769/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ReloadFinishViewController.xib
+END
+ZhuiHaoViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ZhuiHaoViewController.xib
+END
+BetSearchViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BetSearchViewController.m
+END
+BindBankCardCheckViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/iPhone/!svn/ver/1787/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardCheckViewController.m
+END
+ReloadViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/iPhone/!svn/ver/1770/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ReloadViewController.h
+END
+BankListPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/iPhone/!svn/ver/1772/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BankListPicker.h
+END
+ReloadViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/iPhone/!svn/ver/1792/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ReloadViewController.m
+END
+BankListPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/iPhone/!svn/ver/1772/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BankListPicker.m
+END
+UIUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iPhone/!svn/ver/1773/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/UIUtil.h
+END
+UIUtil.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iPhone/!svn/ver/1773/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/UIUtil.m
+END
+AccountViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1786/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/AccountViewController.xib
+END
+AccountViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1769/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/AccountViewController.h
+END
+BindBankCardViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/iPhone/!svn/ver/1796/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardViewController.xib
+END
+BindBankCardSuccessfulViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/iPhone/!svn/ver/1800/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardSuccessfulViewController.xib
+END
+AccountViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1786/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/AccountViewController.m
+END
+BindBankCardSuccessfulViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/iPhone/!svn/ver/1765/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardSuccessfulViewController.h
+END
+BindBankCardViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/iPhone/!svn/ver/1772/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardViewController.h
+END
+MyProfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/MyProfile.h
+END
+BindBankCardViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/iPhone/!svn/ver/1787/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardViewController.m
+END
+BindBankCardSuccessfulViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/iPhone/!svn/ver/1782/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardSuccessfulViewController.m
+END
+MyProfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/MyProfile.m
+END
+ProvinceListPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/iPhone/!svn/ver/1772/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ProvinceListPicker.h
+END
+ATMViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ATMViewController.h
+END
+ReloadDetailViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/iPhone/!svn/ver/1784/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ReloadDetailViewController.xib
+END
+AvatarSetViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/AvatarSetViewController.xib
+END
+ProvinceListPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/iPhone/!svn/ver/1772/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ProvinceListPicker.m
+END
+ATMViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ATMViewController.m
+END
+AvatarSetViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/AvatarSetViewController.h
+END
+BetDetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BetDetailViewController.h
+END
+SetPwdSuccessViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/iPhone/!svn/ver/1782/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/SetPwdSuccessViewController.h
+END
+AvatarSetViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/AvatarSetViewController.m
+END
+BetDetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BetDetailViewController.m
+END
+CityListPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/iPhone/!svn/ver/1772/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/CityListPicker.h
+END
+BindBankCardInsertInfoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/iPhone/!svn/ver/1802/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardInsertInfoViewController.h
+END
+SetPwdSuccessViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/iPhone/!svn/ver/1782/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/SetPwdSuccessViewController.m
+END
+ZhuiHaoPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ZhuiHaoPicker.h
+END
+ReloadFinishViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/iPhone/!svn/ver/1769/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ReloadFinishViewController.h
+END
+ZhuiHaoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ZhuiHaoViewController.h
+END
+CityListPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/iPhone/!svn/ver/1772/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/CityListPicker.m
+END
+BindBankCardInsertInfoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/iPhone/!svn/ver/1802/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BindBankCardInsertInfoViewController.m
+END
+CashViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/iPhone/!svn/ver/1769/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/CashViewController.xib
+END
+BetPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BetPicker.h
+END
+BankPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BankPicker.h
+END
+ZhuiHaoPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ZhuiHaoPicker.m
+END
+ReloadFinishViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/iPhone/!svn/ver/1769/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ReloadFinishViewController.m
+END
+ZhuiHaoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/ZhuiHaoViewController.m
+END
+CashViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/CashViewController.h
+END
+BetPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BetPicker.m
+END
+BankPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/BankPicker.m
+END
+GoBindBankcardViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/iPhone/!svn/ver/1785/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/GoBindBankcardViewController.xib
+END
+CashViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/CashViewController.m
+END
+GoBindBankcardViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/iPhone/!svn/ver/1785/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Account/GoBindBankcardViewController.h
+END

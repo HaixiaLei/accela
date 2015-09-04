@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/iPhone/!svn/ver/1788/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork
+END
+AppRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iPhone/!svn/ver/1756/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AppRequest.h
+END
+MyMD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/MyMD5.h
+END
+AppRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AppRequest.m
+END
+AppCacheManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AppCacheManager.h
+END
+MyMD5.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/MyMD5.m
+END
+AppCacheManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AppCacheManager.m
+END
+ServerAddressManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/ServerAddressManager.h
+END
+JiangQiObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/JiangQiObject.h
+END
+AppAPITest.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iPhone/!svn/ver/1761/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AppAPITest.h
+END
+AppHttpManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1761/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AppHttpManager.h
+END
+ServerAddressManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/ServerAddressManager.m
+END
+JiangQiManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/JiangQiManager.h
+END
+JiangQiObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/JiangQiObject.m
+END
+AppAPITest.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iPhone/!svn/ver/1788/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AppAPITest.m
+END
+AFAppAPIClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1788/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AFAppAPIClient.h
+END
+AppHttpManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1761/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AppHttpManager.m
+END
+JiangQiManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/JiangQiManager.m
+END
+AFAppAPIClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iPhone/!svn/ver/1782/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/NetWork/AFAppAPIClient.m
+END

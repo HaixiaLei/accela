@@ -1,0 +1,210 @@
+//
+//  AFNewsAPIClient.h
+//  News
+//
+//  Created by jay on 13-7-19.
+//  Copyright (c) 2013年 weststar. All rights reserved.
+//
+
+#import "AFNetworking.h"
+#import "KindOfLottery.h"
+
+//#define OnLine   //是否是online环境开关
+
+#ifndef OnLine
+//static NSString * const kAFAppAPIBaseURLString = @"http://192.168.30.8/feed/";
+//static NSString * const kAFAppAPIBaseURLString = @"http://pre.hengcai88.com/feed/";
+static NSString * const kAFAppAPIBaseURLString = @"http://192.168.20.251/feed/";
+
+#endif
+
+#define USER_STORE_SESSIONID            @"AppSessionId"
+#define TimeoutInterval                 600
+
+#define NotificationNameShowLogin       @"NSNotificationNameShowLogin"
+#define NotificationNameLogout          @"NotificationNameLogout"
+
+#define AppServerErrorDomain            @"AppServerErrorDomain"
+
+typedef NS_ENUM(NSInteger,AppServerError)
+{
+    /**ok，请求顺利*/
+    AppServerErrorNone              = 200,
+    /**POST数据出错*/
+    AppServerErrorPOSTWrong         = 999,
+    /**由于您长时间未操作，请重新登录*/
+    AppServerErrorLongTime          = 998,
+    /**被后面登陆的用户挤下线*/
+    AppServerErrorKick              = 997,
+    /**频道已关闭或没有激活*/
+    AppServerErrorUnActive          = 996,
+    /**你所要访问的页面没有找到或者已删除*/
+    AppServerErrorPageNotFound      = 994,
+    /**个人信息错误或者连接超时，请重新登陆*/
+    AppServerErrorPrivateWrong      = 993,
+    
+    /**超过奖金限额*/
+    AppServerErrorBlocked           = 889,
+    
+    /**未设定提款密码*/
+    AppServerErrorMoneyPasswordUnset= 860,
+    
+    /**没有彩种id，客户端没给参数*/
+    AppServerErrorIssueEmpty1       = 820,
+    
+    /**未到销售时间，奖期为空*/
+    AppServerErrorIssueEmpty2       = 821,
+    
+    /**奖期不足*/
+    AppServerErrorIssueNotEnough    = 811,
+    
+    /**您未开通！请联系您的上级*/
+    AppServerErrorUnOpen            = 808,
+    
+    /**服务器内部错误*/
+    AppServerErrorServerInternal    = 500,
+};
+
+typedef NS_ENUM(NSInteger,AlertViewType){
+    AlertViewTypeDefault,
+    AlertViewTypeSuccess,
+    AlertViewTypeBackButton,
+    AlertViewTypeConfirm,
+    AlertViewTypeChaseConfirm,
+    AlertViewTypeErrorBlocked,
+    AlertViewTypeErrorModeUnsame,
+    AlertViewTypeErrorIssueEmpty,
+    AlertViewTypeErrorIssueNotEnough,
+    AlertViewTypeRemoveAll,
+    AlertViewTypeBetNumberExist,        //相同投注号码
+    AlertViewTypeMenuAndRuleError,
+    AlertViewTypeVersionError,
+    AlertViewTypeWithdraw,                //提现确认
+    AlertViewTypeWithdrawSuccess,         //提现成功
+    AlertViewTypeLogout,
+    
+    AlertViewTypeNewVersion,
+};
+
+typedef NS_ENUM(NSInteger,ChangePasswordType){
+    ChangePasswordTypeLogin     = 1,            //修改登录密码
+    ChangePasswordTypeMoney     = 2,            //修改资金密码
+    ChangePasswordTypeFind      = 3,            //找回登录密码
+};
+
+@interface AFAppAPIClient : NSObject
+
+@property (nonatomic,strong) NSOperationQueue *requestQueue;
+@property (nonatomic,strong) NSString *sessionID;
+
+//修改密码接口
+- (void)changePasswordWithAccount:(NSString *)account password:(NSString *)password newPassword:(NSString *)newPassword type:(ChangePasswordType)type Block:(void (^)(id JSON, NSError *error))block;
+
+//版本号接口
+- (void)getVersionNumberWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//登陆
+- (void)loginWithAccount:(NSString *)account password:(NSString *)password Block:(void (^)(id JSON, NSError *error))block;
+
+//主页
+- (void)getHomeWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//开奖信息首页接口
+- (void)getLotteryInfomationWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//开奖信息Sub接口
+- (void)getLotteryInfomationListWithLotteryID:(NSString *)lotteryId issueNumber:(NSString *)issueNumber Block:(void (^)(id JSON, NSError *error))block;
+
+//彩种信息列表接口
+- (void)lotteryListWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//二三级菜单以及玩法接口
+- (void)menuAndRuleMethodWithKind:(KindOfLottery *)kind Block:(void (^)(id JSON, NSError *error))block;
+
+//奖期接口
+- (void)jiangQiWithNav:(NSString *)nav lotteryId:(NSString *)lotteryId Block:(void (^)(id JSON, NSError *error))block;
+
+//可追号奖期接口
+- (void)keZhuiHaoJiangQiWithKind:(KindOfLottery *)kind Block:(void (^)(id JSON, NSError *error))block;
+
+//投注接口
+- (void)touZhuWithKind:(KindOfLottery *)kind lotteryid:(NSString *)lotteryid lt_issue_start:(NSString *)lt_issue_start bettingInformations:(NSArray *)bettingInformations lt_project_modes:(NSString *)lt_project_modes lt_total_money:(NSString *)lt_total_money lt_total_nums:(NSString *)lt_total_nums Block:(void (^)(id JSON, NSError *error))block;
+
+//投注追号接口
+- (void)touZhuZhuiHaoWithKind:(KindOfLottery *)kind lotteryid:(NSString *)lotteryid lt_issue_start:(NSString *)lt_issue_start bettingInformations:(NSArray *)bettingInformations lt_project_modes:(NSString *)lt_project_modes lt_total_money:(NSString *)lt_total_money lt_total_nums:(NSString *)lt_total_nums lt_trace_count_input:(NSString *)lt_trace_count_input lt_trace_diff:(NSString *)lt_trace_diff lt_trace_if:(NSString *)lt_trace_if lt_trace_margin:(NSString *)lt_trace_margin lt_trace_money:(NSString *)lt_trace_money lt_trace_stop:(NSString *)lt_trace_stop lt_trace_times_diff:(NSString *)lt_trace_times_diff lt_trace_times_margin:(NSString *)lt_trace_times_margin lt_trace_times_same:(NSString *)lt_trace_times_same keZhuiHaoJiangQis:(NSArray *)keZhuiHaoJiangQis Block:(void (^)(id JSON, NSError *error))block;
+
+//玩法介绍接口
+- (void)getPlayInfomationWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//如何存款帮助接口
+- (void)getHowToSavingWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//常见问题帮助接口
+- (void)getAnswerWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//可用余额接口
+- (void)getBalanceWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//消息列表接口
+- (void)getMessageListWithPage:(NSString *)page Block:(void (^)(id JSON, NSError *error))block;
+
+//13.1、更新头像接口
+- (void)updateAvatarWithId:(NSString *)avatarId Block:(void (^)(id JSON, NSError *error))block;
+
+//13.1、获取头像接口
+- (void)getAvatarWithId:(NSString *)avatarId Block:(void (^)(id JSON, NSError *error))block;
+
+//消息内容接口
+- (void)getMessageContentWithMessageId:(NSString *)messageId Block:(void (^)(id JSON, NSError *error))block;
+
+//删除消息接口
+- (void)deleteMessageContentWithMessageId:(NSString *)messageId Block:(void (^)(id JSON, NSError *error))block;
+
+//网站公告列表接口
+- (void)getNoticeListWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//网站公告内容接口
+- (void)getNoticeContentWithNoticeId:(NSString *)noticeId Block:(void (^)(id JSON, NSError *error))block;
+
+//购彩查询接口
+- (void)gouCaiChaXunWithStartTime:(NSString *)startTime endTime:(NSString *)endTime Page:(NSString *)page Block:(void (^)(id JSON, NSError *error))block;
+
+//18.1、投注详情接口
+- (void)betDetail_WithProjectid:(NSString *)projectid Block:(void (^)(id JSON, NSError *error))block;
+
+//18.2、撤单接口
+- (void)cancelOrder_WithProjectid:(NSString *)projectid Block:(void (^)(id JSON, NSError *error))block;
+
+//19 追号查询接口
+- (void)zhuiHaoChaXunWithStartTime:(NSString *)startTime endTime:(NSString *)endTime Page:(NSString *)page Block:(void (^)(id JSON, NSError *error))block;
+
+//19.1、追号明细查询接口
+- (void)traceDetail_WithTaskId:(NSString *)taskId Block:(void (^)(id JSON, NSError *error))block;
+
+//19.2、终止追号接口
+- (void)cancelTrace_WithTaskId:(NSString *)taskId detailId:(NSString *)detailId Block:(void (^)(id JSON, NSError *error))block;
+
+//充提查询接口
+- (void)chongTiChaXunWithStartTime:(NSString *)startTime endTime:(NSString *)endTime Page:(NSString *)page Block:(void (^)(id JSON, NSError *error))block;
+
+//资金密码验证接口
+- (void)ziJinMiMaYanZhengWithPassword:(NSString *)password Block:(void (^)(id JSON, NSError *error))block;
+
+//提款可用银行卡信息接口
+- (void)tiKuangKeYongYinHangKaXinXiWithPassword:(NSString *)password Block:(void (^)(id JSON, NSError *error))block;
+
+//确认提款信息接口
+- (void)queRenTiKuangXinXiWithCheck:(NSString *)check bankInfo:(NSString *)bankInfo money:(NSString *)money Block:(void (^)(id JSON, NSError *error))block;
+
+//最终提款接口
+- (void)zuiZhongTiKuangXinXiWithCheck:(NSString *)check cardId:(NSString *)cardId money:(NSString *)money Block:(void (^)(id JSON, NSError *error))block;
+
+//退出登录接口
+- (void)logoutWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//26.获取广告接口
+- (void)getAdWithBlock:(void (^)(id JSON, NSError *error))block;
+
+//22.查询购买记录接口(type  0-已购彩票  1-未开奖彩票 2-中奖彩票 (不传递为0))
+- (void)getMyLotteryList_with_type:(NSString *)type projectId:(NSString *)projectId projectNumber:(NSString *)number block:(void (^)(id JSON, NSError *error))block;
+@end

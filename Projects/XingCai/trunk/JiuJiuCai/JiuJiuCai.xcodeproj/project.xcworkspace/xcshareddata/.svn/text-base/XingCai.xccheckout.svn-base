@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E9F1383-DEE3-4480-BBFE-E150F3249DD9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>XingCai</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>89DD14D3-51D2-463F-AC0A-6A5ACFEBD55C</key>
+		<string>https://192.168.30.16/svn/iPhone/XingCai/trunk/XingCai</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>XingCai.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>89DD14D3-51D2-463F-AC0A-6A5ACFEBD55C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>89DD14D3-51D2-463F-AC0A-6A5ACFEBD55C</key>
+		<string>https://192.168.30.16/svn/iPhone</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.30.16/svn/iPhone/XingCai/trunk/XingCai/XingCai.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>89DD14D3-51D2-463F-AC0A-6A5ACFEBD55C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89DD14D3-51D2-463F-AC0A-6A5ACFEBD55C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XingCai</string>
+		</dict>
+	</array>
+</dict>
+</plist>

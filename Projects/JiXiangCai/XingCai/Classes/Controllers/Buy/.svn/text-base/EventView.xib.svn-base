@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EventView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="yyI-ml-GBH" customClass="EventView">
+            <rect key="frame" x="0.0" y="0.0" width="263" height="487"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l9Q-EJ-1c4">
+                    <rect key="frame" x="0.0" y="0.0" width="263" height="487"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="l9Q-EJ-1c4" secondAttribute="trailing" id="ZGm-ve-QdM"/>
+                <constraint firstItem="l9Q-EJ-1c4" firstAttribute="top" secondItem="yyI-ml-GBH" secondAttribute="top" id="bzd-Ku-wPK"/>
+                <constraint firstAttribute="bottom" secondItem="l9Q-EJ-1c4" secondAttribute="bottom" id="kQy-pm-yxp"/>
+                <constraint firstItem="l9Q-EJ-1c4" firstAttribute="leading" secondItem="yyI-ml-GBH" secondAttribute="leading" id="tpc-x0-vIl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgView" destination="l9Q-EJ-1c4" id="2nL-DD-OnU"/>
+            </connections>
+        </view>
+    </objects>
+</document>

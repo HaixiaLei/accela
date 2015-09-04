@@ -1,0 +1,159 @@
+//
+//  AppAPITest.m
+//  
+//  Created by jay on 14-9-22.
+//  Copyright (c) 2014年 weststar. All rights reserved.
+//
+
+#import "AppAPITest.h"
+#import "AppHttpManager.h"
+
+@implementation AppAPITest
+
++ (void)start
+{
+    AppAPITest *appAPITest = [[AppAPITest alloc] init];
+    [appAPITest beginTest];
+}
+
+- (void)beginTest
+{
+     [[AppHttpManager sharedManager] loginWithAccount:@"susan22" password:@"123qwe" Block:^(id JSON, NSError *error){
+<<<<<<< .mine
+         [self testz];
+=======
+//         [self test7];
+>>>>>>> .r1818
+     }];
+}
+
+#pragma mark - 26.系统充值银行信息接口
+- (void)test1
+{
+    [[AppHttpManager sharedManager] bankListWithBlock:^(id JSON, NSError *error) {
+        
+    }];
+}
+
+#pragma mark - 27.用户充值页面信息接口
+- (void)test2
+{
+    [[AppHttpManager sharedManager] bankInfoWithBankCode:@"cmb" block:^(id JSON, NSError *error) {
+        
+    }];
+}
+
+#pragma mark - 28.充值确认接口
+- (void)test3
+{
+    [[AppHttpManager sharedManager] loadConfirmWithBankCode:@"cmb" bankId:@"13" bankIdInBankInfo:@"13" amount:@"100" block:^(id JSON, NSError *error) {
+        
+    }];
+}
+
+#pragma mark - 29.获取系统可绑定银行卡以及省份信息接口
+- (void)test4
+{
+    [[AppHttpManager sharedManager] provinceListWithBlock:^(id JSON, NSError *error) {
+        
+    }];
+}
+
+#pragma mark - 30.获取城市信息接口
+- (void)test5
+{
+    [[AppHttpManager sharedManager] cityListWithProvince:@"2#上海" block:^(id JSON, NSError *error) {
+        
+    }];
+}
+
+#pragma mark - 31.添加银行信息接口
+- (void)test6
+{
+    [[AppHttpManager sharedManager] ziJinMiMaYanZhengWithPassword:@"qwe123" Block:^(id JSON, NSError *error)
+     {
+         if (!error)
+         {
+             NSString *check = [JSON objectForKey:@"check"];
+             
+             //使用未添加银行卡的账号，bankCheckCode传空，否者，调用33.验证最近添加的银行卡信息接口，获取bankCheckCode
+             [[AppHttpManager sharedManager] addBankCardWithBankUniqueCode:@"13#中国招商银行" province:@"2#上海" cityUniqueCode:@"140#上海" branch:@"上海浦东分区招行" accountName:@"sunlee" account:@"9558801001136410831" checkCode:check bankCheckCode:@"" block:^(id JSON, NSError *error) {
+                 
+             }];
+         }
+     }];
+}
+
+#pragma mark - 32.确认添加银行信息接口
+- (void)test7
+{
+    /*
+     开户银行：招商银行，卡号：6225880211748018
+     开户银行：工商银行，卡号：9558801001136410831
+     开户银行：建设银行，卡号：4367421217354474983
+     开户银行：交通银行，卡号：60142825113662000
+     开户银行：农业银行，卡号：9559980030368850712
+     */
+    
+    [[AppHttpManager sharedManager] ziJinMiMaYanZhengWithPassword:@"qwe123" Block:^(id JSON, NSError *error)
+     {
+         if (!error)
+         {
+             NSString *check = [JSON objectForKey:@"check"];
+             
+             //使用未添加银行卡的账号，bankCheckCode传空，否者，调用33.验证最近添加的银行卡信息接口，获取bankCheckCode
+             [[AppHttpManager sharedManager] addBankCardWithBankUniqueCode:@"13#中国招商银行" province:@"2#上海" cityUniqueCode:@"140#上海" branch:@"上海浦东分区招行" accountName:@"sunlee" account:@"9558801001136410831" checkCode:check bankCheckCode:@"" block:^(id JSON, NSError *error)
+             {
+                 if(!error)
+                 {
+                     NSString *addBankCode = [JSON objectForKey:@"add_bank_code"];
+                     [[AppHttpManager sharedManager] comfirmCardWithBankName:@"中国招商银行" bankId:@"13" province:@"上海" provinceId:@"2" city:@"上海" cityId:@"140" bankBranch:@"上海浦东分区招行" account:@"9558801001136410831" accountName:@"sunlee" addBankCode:addBankCode block:^(id JSON, NSError *error) {
+                         
+                     }];
+                 }
+             }];
+         }
+     }];
+}
+
+#pragma mark - 33.验证最近添加的银行卡信息接口
+- (void)test8
+{
+    [[AppHttpManager sharedManager] hasBindWithBlock:^(id JSON, NSError *error) {
+        if(!error)
+        {
+            if ([[JSON objectForKey:@"isBind"] integerValue] == 1) {
+                //必须记住，记不住没法搞了下面这步。。。
+                [[AppHttpManager sharedManager] checkCardWithAccount:@"" accountName:@"" block:^(id JSON, NSError *error) {
+                    
+                }];
+            }
+        }
+    }];
+}
+
+#pragma mark - 34.判断用户是否需要输入最近绑定的卡号接口
+- (void)test9
+{
+    [[AppHttpManager sharedManager] hasBindWithBlock:^(id JSON, NSError *error) {
+        
+    }];
+}
+
+#pragma mark - 35.判断用户是否设置了提款密码接口
+- (void)test10
+{
+    [[AppHttpManager sharedManager] hasWithdrawPwdWithBlock:^(id JSON, NSError *error) {
+        
+    }];
+}
+
+#pragma mark - 36.设置资金密码接口
+- (void)test11
+{
+    [[AppHttpManager sharedManager] setWithdrawPwdWithNewPassword:@"qwe123" block:^(id JSON, NSError *error) {
+        
+    }];
+}
+
+@end

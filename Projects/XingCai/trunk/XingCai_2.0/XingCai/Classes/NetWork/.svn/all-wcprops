@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/iPhone/!svn/ver/1819/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork
+END
+AppRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/AppRequest.h
+END
+MyMD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/MyMD5.h
+END
+AppRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/AppRequest.m
+END
+AppCacheManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/iPhone/!svn/ver/1662/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/AppCacheManager.h
+END
+MyMD5.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/MyMD5.m
+END
+AppCacheManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/iPhone/!svn/ver/1804/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/AppCacheManager.m
+END
+ServerAddressManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/ServerAddressManager.h
+END
+JiangQiObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/JiangQiObject.h
+END
+AppHttpManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iPhone/!svn/ver/1679/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/AppHttpManager.h
+END
+ServerAddressManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/ServerAddressManager.m
+END
+JiangQiManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iPhone/!svn/ver/1662/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/JiangQiManager.h
+END
+JiangQiObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/iPhone/!svn/ver/1155/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/JiangQiObject.m
+END
+AFAppAPIClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iPhone/!svn/ver/1819/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/AFAppAPIClient.h
+END
+AppHttpManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iPhone/!svn/ver/1679/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/AppHttpManager.m
+END
+JiangQiManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iPhone/!svn/ver/1703/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/JiangQiManager.m
+END
+AFAppAPIClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iPhone/!svn/ver/1725/XingCai/trunk/XingCai_2.0/XingCai/Classes/NetWork/AFAppAPIClient.m
+END

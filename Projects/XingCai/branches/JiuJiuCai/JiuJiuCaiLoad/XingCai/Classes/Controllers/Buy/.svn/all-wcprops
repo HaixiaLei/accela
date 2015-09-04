@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/iPhone/!svn/ver/1784/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy
+END
+BuyViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/iPhone/!svn/ver/1784/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/BuyViewController.xib
+END
+BuyFinishViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/BuyFinishViewController.xib
+END
+BuyChooseViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/BuyChooseViewController.xib
+END
+BuyViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/1765/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/BuyViewController.h
+END
+BuyFinishViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/BuyFinishViewController.h
+END
+BuyChooseViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/BuyChooseViewController.h
+END
+InfoOfPlayMethodViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/InfoOfPlayMethodViewController.xib
+END
+ChooseKindsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/ChooseKindsViewController.xib
+END
+BuyViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/1783/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/BuyViewController.m
+END
+BuyFinishViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/BuyFinishViewController.m
+END
+BuyChooseViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/BuyChooseViewController.m
+END
+InfoOfPlayMethodViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/InfoOfPlayMethodViewController.h
+END
+ChooseKindsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/ChooseKindsViewController.h
+END
+NSTimer+Addition.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/NSTimer+Addition.h
+END
+CycleScrollView.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/CycleScrollView.h
+END
+InfoOfPlayMethodViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/InfoOfPlayMethodViewController.m
+END
+ChooseKindsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/ChooseKindsViewController.m
+END
+NSTimer+Addition.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/NSTimer+Addition.m
+END
+CycleScrollView.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/iPhone/!svn/ver/1751/XingCai/branches/JiuJiuCai/JiuJiuCaiLoad/XingCai/Classes/Controllers/Buy/CycleScrollView.m
+END

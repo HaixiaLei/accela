@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EventsViewController">
+            <connections>
+                <outlet property="bgView" destination="Nec-2E-dyU" id="07W-8M-Bj5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nec-2E-dyU">
+                    <rect key="frame" x="29" y="41" width="263" height="487"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M17-wb-Av1">
+                    <rect key="frame" x="264" y="24" width="44" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="lotterylist_btn_close_n.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="lotterylist_btn_close_h.png"/>
+                    <connections>
+                        <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="DTE-no-WnB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Vz-wu-ahF">
+                    <rect key="frame" x="13" y="457" width="31" height="91"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="lotterylist_event_s.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="closeAction:" destination="-1" eventType="touchUpInside" id="ZdU-nC-zJt"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="M17-wb-Av1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="24" id="6hA-a6-YhP"/>
+                <constraint firstAttribute="trailing" secondItem="M17-wb-Av1" secondAttribute="trailing" constant="12" id="8cQ-uX-h2V"/>
+                <constraint firstItem="Nec-2E-dyU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="41" id="A0S-QB-hi0"/>
+                <constraint firstItem="Nec-2E-dyU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="29" id="L5K-3O-IL5"/>
+                <constraint firstItem="Nec-2E-dyU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RAB-oe-1G4"/>
+                <constraint firstItem="7Vz-wu-ahF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="cBP-xq-LYZ"/>
+                <constraint firstAttribute="bottom" secondItem="Nec-2E-dyU" secondAttribute="bottom" constant="40" id="f7f-FP-lMr"/>
+                <constraint firstAttribute="bottom" secondItem="7Vz-wu-ahF" secondAttribute="bottom" constant="20" id="hiM-sg-OlH"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lotterylist_btn_close_h.png" width="44" height="44"/>
+        <image name="lotterylist_btn_close_n.png" width="44" height="44"/>
+        <image name="lotterylist_event_s.png" width="31" height="91"/>
+    </resources>
+</document>

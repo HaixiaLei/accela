@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetViewController">
+            <connections>
+                <outlet property="changeLoginPwdImg" destination="aMk-Yn-jsX" id="OPF-G4-Ube"/>
+                <outlet property="changePwdImg" destination="x6K-xr-CBx" id="xZo-2c-Rdh"/>
+                <outlet property="checkVersionImg" destination="Q6D-Ab-zw5" id="RzA-LZ-6oK"/>
+                <outlet property="feedbackArrowImg" destination="VlT-Tx-fSa" id="ZTA-iW-11D"/>
+                <outlet property="feedbackImg" destination="V92-iB-HcL" id="UV6-mO-pQQ"/>
+                <outlet property="loginPwdArrowImg" destination="wlC-dK-kOg" id="4eC-TV-wPe"/>
+                <outlet property="logoutButton" destination="2CM-If-I7R" id="zjB-JH-K74"/>
+                <outlet property="pwdArrowImg" destination="49V-D6-kxz" id="713-lk-6B2"/>
+                <outlet property="versionLB" destination="2VU-tZ-vPR" id="0hM-3t-bFU"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="44" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Is5-MM-bbJ">
+                    <rect key="frame" x="0.0" y="2" width="320" height="60"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <connections>
+                        <action selector="changePwd:" destination="-1" eventType="touchUpOutside" id="Bxl-zR-7Ae"/>
+                        <action selector="changePwd:" destination="-1" eventType="touchUpInside" id="b0f-GX-od3"/>
+                        <action selector="touchDownChangePwd:" destination="-1" eventType="touchDown" id="fYr-IU-vhC"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gesture-icon-nomal.png" translatesAutoresizingMaskIntoConstraints="NO" id="x6K-xr-CBx">
+                    <rect key="frame" x="10" y="18" width="24" height="24"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="修改手势密码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ii6-FQ-Ce2">
+                    <rect key="frame" x="50" y="19" width="150" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Right-Arrow-nomal.png" translatesAutoresizingMaskIntoConstraints="NO" id="49V-D6-kxz">
+                    <rect key="frame" x="290" y="24" width="8" height="12"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Content-dividing-line.png" translatesAutoresizingMaskIntoConstraints="NO" id="JG8-Mm-Gcd">
+                    <rect key="frame" x="0.0" y="60" width="320" height="1"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlH-2R-bRQ">
+                    <rect key="frame" x="0.0" y="61" width="320" height="60"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <connections>
+                        <action selector="changeLoginPwd:" destination="-1" eventType="touchUpInside" id="3iw-0p-ivd"/>
+                        <action selector="changeLoginPwd:" destination="-1" eventType="touchUpOutside" id="lED-RE-xPr"/>
+                        <action selector="touchDownChangeLoginPwd:" destination="-1" eventType="touchDown" id="Y7S-W9-mJA"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Change-Password-nomal.png" translatesAutoresizingMaskIntoConstraints="NO" id="aMk-Yn-jsX">
+                    <rect key="frame" x="10" y="79" width="24" height="24"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="修改登录密码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HM5-gx-GZx">
+                    <rect key="frame" x="50" y="80" width="150" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Right-Arrow-nomal.png" translatesAutoresizingMaskIntoConstraints="NO" id="wlC-dK-kOg">
+                    <rect key="frame" x="290" y="85" width="8" height="12"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Content-dividing-line.png" translatesAutoresizingMaskIntoConstraints="NO" id="9hh-v5-aAf">
+                    <rect key="frame" x="0.0" y="120" width="320" height="1"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBf-tw-hY1">
+                    <rect key="frame" x="0.0" y="122" width="320" height="60"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <connections>
+                        <action selector="feedback:" destination="-1" eventType="touchUpOutside" id="eoD-nf-2eN"/>
+                        <action selector="feedback:" destination="-1" eventType="touchUpInside" id="khc-Ga-wuQ"/>
+                        <action selector="touchDownFeedback:" destination="-1" eventType="touchDown" id="Il0-rw-bff"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Feedback-nomal.png" translatesAutoresizingMaskIntoConstraints="NO" id="V92-iB-HcL">
+                    <rect key="frame" x="10" y="140" width="24" height="24"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="意见反馈" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vv2-jv-2lz">
+                    <rect key="frame" x="50" y="141" width="150" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Right-Arrow-nomal.png" translatesAutoresizingMaskIntoConstraints="NO" id="VlT-Tx-fSa">
+                    <rect key="frame" x="290" y="146" width="8" height="12"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Content-dividing-line.png" translatesAutoresizingMaskIntoConstraints="NO" id="RUD-eZ-BDN">
+                    <rect key="frame" x="0.0" y="181" width="320" height="1"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQK-3S-Pzb">
+                    <rect key="frame" x="0.0" y="182" width="320" height="60"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <connections>
+                        <action selector="checkVersion:" destination="-1" eventType="touchUpInside" id="TfN-JP-Ajs"/>
+                        <action selector="checkVersion:" destination="-1" eventType="touchUpOutside" id="n8U-h8-CR2"/>
+                        <action selector="touchDownCheckVersion:" destination="-1" eventType="touchDown" id="55x-Zh-Y37"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Version-nomal.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q6D-Ab-zw5">
+                    <rect key="frame" x="10" y="200" width="24" height="24"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="检测更新" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xma-kQ-j6b">
+                    <rect key="frame" x="50" y="201" width="150" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="V1.0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2VU-tZ-vPR">
+                    <rect key="frame" x="200" y="201" width="100" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Content-dividing-line.png" translatesAutoresizingMaskIntoConstraints="NO" id="kkx-qE-1bK">
+                    <rect key="frame" x="0.0" y="241" width="320" height="1"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2CM-If-I7R">
+                    <rect key="frame" x="15" y="430" width="290" height="43"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="Sign-out-nomal.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="Sign-out-pressed.png"/>
+                    <connections>
+                        <action selector="logoutAction:" destination="-1" eventType="touchUpInside" id="rNd-2N-Zfo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2CM-If-I7R" secondAttribute="bottom" constant="31" id="8Hg-Ex-k33"/>
+                <constraint firstItem="2CM-If-I7R" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="15" id="Iau-LY-HfP"/>
+                <constraint firstAttribute="trailing" secondItem="2CM-If-I7R" secondAttribute="trailing" constant="15" id="d23-ae-Sea"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Change-Password-nomal.png" width="24" height="24"/>
+        <image name="Content-dividing-line.png" width="1" height="1"/>
+        <image name="Feedback-nomal.png" width="24" height="24"/>
+        <image name="Gesture-icon-nomal.png" width="24" height="24"/>
+        <image name="Right-Arrow-nomal.png" width="8" height="12"/>
+        <image name="Sign-out-nomal.png" width="290" height="43"/>
+        <image name="Sign-out-pressed.png" width="290" height="43"/>
+        <image name="Version-nomal.png" width="24" height="24"/>
+    </resources>
+</document>

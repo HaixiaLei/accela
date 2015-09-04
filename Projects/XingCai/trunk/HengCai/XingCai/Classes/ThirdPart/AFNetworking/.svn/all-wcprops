@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/iPhone/!svn/ver/796/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking
+END
+AFHTTPClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFHTTPClient.m
+END
+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFNetworking.h
+END
+AFXMLRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFXMLRequestOperation.h
+END
+AFNetworkActivityIndicatorManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFNetworkActivityIndicatorManager.h
+END
+UIImageView+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/UIImageView+AFNetworking.h
+END
+AFXMLRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFXMLRequestOperation.m
+END
+AFURLConnectionOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFURLConnectionOperation.h
+END
+AFNetworkActivityIndicatorManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFNetworkActivityIndicatorManager.m
+END
+AFJSONRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFJSONRequestOperation.h
+END
+UIImageView+AFNetworking.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/UIImageView+AFNetworking.m
+END
+AFURLConnectionOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFURLConnectionOperation.m
+END
+AFJSONRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iPhone/!svn/ver/796/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFJSONRequestOperation.m
+END
+AFHTTPRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFHTTPRequestOperation.h
+END
+AFPropertyListRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFPropertyListRequestOperation.h
+END
+AFImageRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFImageRequestOperation.h
+END
+AFHTTPRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFHTTPRequestOperation.m
+END
+AFHTTPClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFHTTPClient.h
+END
+AFPropertyListRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFPropertyListRequestOperation.m
+END
+AFImageRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iPhone/!svn/ver/787/XingCai/trunk/HengCai/XingCai/Classes/ThirdPart/AFNetworking/AFImageRequestOperation.m
+END

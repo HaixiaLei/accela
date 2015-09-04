@@ -1,0 +1,324 @@
+//
+//  NewsHttpManager.m
+//  News
+//
+//  Created by jay on 13-7-19.
+//  Copyright (c) 2013年 weststar. All rights reserved.
+//
+
+#import "AppHttpManager.h"
+@interface AppHttpManager()
+{
+    AFAppAPIClient *client;
+}
+@end
+
+@implementation AppHttpManager
+
+#pragma mark - Init
+
+- (id)init {
+    self = [super init];
+    if (self) {
+        client = [[AFAppAPIClient alloc] init];
+    }
+    return self;
+}
+
++ (AppHttpManager *)sharedManager {
+    static AppHttpManager *_sharedManager = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _sharedManager = [[AppHttpManager alloc] init];
+    });
+    
+    return _sharedManager;
+}
+
+//修改密码接口
+- (void)changePasswordWithAccount:(NSString *)account password:(NSString *)password newPassword:(NSString *)newPassword Block:(void (^)(id JSON, NSError *error))block
+{
+    [client changePasswordWithAccount:account password:password newPassword:newPassword Block:block];
+}
+
+//版本号接口
+- (void)getVersionNumberWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getVersionNumberWithBlock:block];
+}
+//登录
+- (void)loginWithAccount:(NSString *)account password:(NSString *)password Block:(void (^)(id JSON, NSError *error))block
+{
+    [client loginWithAccount:account password:password Block:block];
+}
+
+//主页
+- (void)getHomeWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getHomeWithBlock:block];
+}
+
+//开奖信息首页接口
+- (void)getLotteryInfomationWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getLotteryInfomationWithBlock:block];
+}
+
+//开奖信息Sub接口
+- (void)getLotteryInfomationListWithLotteryID:(NSString *)lotteryId issueNumber:(NSString *)issueNumber Block:(void (^)(id JSON, NSError *error))block
+{
+    [client getLotteryInfomationListWithLotteryID:lotteryId issueNumber:issueNumber Block:block];
+}
+
+//彩种信息列表接口
+- (void)lotteryListWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client lotteryListWithBlock:block];
+}
+
+//二三级菜单以及玩法接口
+- (void)menuAndRuleMethodWithKind:(KindOfLottery *)kind Block:(void (^)(id JSON, NSError *error))block
+{
+    [client menuAndRuleMethodWithKind:kind Block:block];
+}
+
+//奖期接口
+- (void)jiangQiWithNav:(NSString *)nav lotteryId:(NSString *)lotteryId Block:(void (^)(id JSON, NSError *error))block
+{
+    [client jiangQiWithNav:nav lotteryId:lotteryId Block:block];
+}
+
+//可追号奖期接口
+- (void)keZhuiHaoJiangQiWithKind:(KindOfLottery *)kind Block:(void (^)(id JSON, NSError *error))block
+{
+    [client keZhuiHaoJiangQiWithKind:kind Block:block];
+}
+
+//投注接口
+- (void)touZhuWithKind:(KindOfLottery *)kind lotteryid:(NSString *)lotteryid lt_issue_start:(NSString *)lt_issue_start bettingInformations:(NSArray *)bettingInformations lt_project_modes:(NSString *)lt_project_modes lt_total_money:(NSString *)lt_total_money lt_total_nums:(NSString *)lt_total_nums Block:(void (^)(id JSON, NSError *error))block
+{
+    [client touZhuWithKind:kind lotteryid:lotteryid lt_issue_start:lt_issue_start bettingInformations:bettingInformations lt_project_modes:lt_project_modes lt_total_money:lt_total_money lt_total_nums:lt_total_nums Block:block];
+}
+
+//投注追号接口
+- (void)touZhuZhuiHaoWithKind:(KindOfLottery *)kind lotteryid:(NSString *)lotteryid lt_issue_start:(NSString *)lt_issue_start bettingInformations:(NSArray *)bettingInformations lt_project_modes:(NSString *)lt_project_modes lt_total_money:(NSString *)lt_total_money lt_total_nums:(NSString *)lt_total_nums lt_trace_count_input:(NSString *)lt_trace_count_input lt_trace_diff:(NSString *)lt_trace_diff lt_trace_if:(NSString *)lt_trace_if lt_trace_margin:(NSString *)lt_trace_margin lt_trace_money:(NSString *)lt_trace_money lt_trace_stop:(NSString *)lt_trace_stop lt_trace_times_diff:(NSString *)lt_trace_times_diff lt_trace_times_margin:(NSString *)lt_trace_times_margin lt_trace_times_same:(NSString *)lt_trace_times_same keZhuiHaoJiangQis:(NSArray *)keZhuiHaoJiangQis Block:(void (^)(id JSON, NSError *error))block
+{
+    [client touZhuZhuiHaoWithKind:kind lotteryid:lotteryid lt_issue_start:lt_issue_start bettingInformations:bettingInformations lt_project_modes:lt_project_modes lt_total_money:lt_total_money lt_total_nums:lt_total_nums lt_trace_count_input:lt_trace_count_input lt_trace_diff:lt_trace_diff lt_trace_if:lt_trace_if lt_trace_margin:lt_trace_margin lt_trace_money:lt_trace_money lt_trace_stop:lt_trace_stop lt_trace_times_diff:lt_trace_times_diff lt_trace_times_margin:lt_trace_times_margin lt_trace_times_same:lt_trace_times_same keZhuiHaoJiangQis:keZhuiHaoJiangQis Block:block];
+}
+
+//玩法介绍接口
+- (void)getPlayInfomationWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getPlayInfomationWithBlock:block];
+}
+
+//如何存款帮助接口
+- (void)getHowToSavingWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getHowToSavingWithBlock:block];
+}
+
+//常见问题帮助接口
+- (void)getAnswerWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getAnswerWithBlock:block];
+}
+
+//可用余额接口
+- (void)getBalanceWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getBalanceWithBlock:block];
+}
+
+//消息列表接口
+- (void)getMessageListWithPage:(NSString *)page Block:(void (^)(id JSON, NSError *error))block
+{
+    [client getMessageListWithPage:page Block:block];
+}
+
+//消息内容接口
+- (void)getMessageContentWithMessageId:(NSString *)messageId Block:(void (^)(id JSON, NSError *error))block
+{
+    [client getMessageContentWithMessageId:messageId Block:block];
+}
+
+//13.1、更新头像接口
+- (void)updateAvatarWithId:(NSString *)avatarId Block:(void (^)(id JSON, NSError *error))block
+{
+    [client updateAvatarWithId:avatarId Block:block];
+}
+
+//13.1、获取头像接口
+- (void)getAvatarWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getAvatarWithBlock:block];
+}
+
+//删除消息接口
+- (void)deleteMessageContentWithMessageId:(NSString *)messageId Block:(void (^)(id JSON, NSError *error))block
+{
+    [client deleteMessageContentWithMessageId:messageId Block:block];
+}
+
+//网站公告列表接口
+- (void)getNoticeListWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getNoticeListWithBlock:block];
+}
+
+//网站公告内容接口
+- (void)getNoticeContentWithNoticeId:(NSString *)noticeId Block:(void (^)(id JSON, NSError *error))block
+{
+    [client getNoticeContentWithNoticeId:noticeId Block:block];
+}
+
+//购彩查询接口
+- (void)gouCaiChaXunWithStartTime:(NSString *)startTime endTime:(NSString *)endTime lotteryid:lotteryid Page:(NSString *)page Block:(void (^)(id JSON, NSError *error))block
+{
+    [client gouCaiChaXunWithStartTime:startTime endTime:endTime lotteryid:lotteryid Page:page Block:block];
+}
+
+//18.1、投注详情接口
+- (void)betDetail_WithProjectid:(NSString *)projectid Block:(void (^)(id JSON, NSError *error))block
+{
+    [client betDetail_WithProjectid:projectid Block:block];
+}
+
+//18.2、撤单接口
+- (void)cancelOrder_WithProjectid:(NSString *)projectid Block:(void (^)(id JSON, NSError *error))block
+{
+    [client cancelOrder_WithProjectid:projectid Block:block];
+}
+//19 追号查询接口
+- (void)zhuiHaoChaXunWithStartTime:(NSString *)startTime endTime:(NSString *)endTime lotteryid:(NSString *)lotteryid Page:(NSString *)page Block:(void (^)(id JSON, NSError *error))block
+{
+    [client zhuiHaoChaXunWithStartTime:startTime endTime:endTime lotteryid:lotteryid Page:page Block:block];
+}
+
+//19.1、追号明细查询接口
+- (void)traceDetail_WithTaskId:(NSString *)taskId Block:(void (^)(id JSON, NSError *error))block
+{
+    [client traceDetail_WithTaskId:taskId Block:block];
+}
+
+//19.2、终止追号接口
+- (void)cancelTrace_WithTaskId:(NSString *)taskId detailId:(NSString *)detailId Block:(void (^)(id JSON, NSError *error))block
+{
+    [client cancelTrace_WithTaskId:taskId detailId:detailId Block:block];
+}
+
+//充提查询接口
+- (void)chongTiChaXunWithStartTime:(NSString *)startTime endTime:(NSString *)endTime Page:(NSString *)page Block:(void (^)(id JSON, NSError *error))block
+{
+    [client chongTiChaXunWithStartTime:startTime endTime:endTime Page:page Block:block];
+}
+
+//资金密码验证接口
+- (void)ziJinMiMaYanZhengWithPassword:(NSString *)password Block:(void (^)(id JSON, NSError *error))block
+{
+    [client ziJinMiMaYanZhengWithPassword:password Block:block];
+}
+
+//提款可用银行卡信息接口
+- (void)tiKuangKeYongYinHangKaXinXiWithPassword:(NSString *)password Block:(void (^)(id JSON, NSError *error))block
+{
+    [client tiKuangKeYongYinHangKaXinXiWithPassword:password Block:block];
+}
+
+//确认提款信息接口
+- (void)queRenTiKuangXinXiWithCheck:(NSString *)check bankInfo:(NSString *)bankInfo money:(NSString *)money Block:(void (^)(id JSON, NSError *error))block
+{
+    [client queRenTiKuangXinXiWithCheck:check bankInfo:bankInfo money:money Block:block];
+}
+
+//最终提款接口
+- (void)zuiZhongTiKuangXinXiWithCheck:(NSString *)check cardId:(NSString *)cardId money:(NSString *)money Block:(void (^)(id JSON, NSError *error))block
+{
+    [client zuiZhongTiKuangXinXiWithCheck:check cardId:cardId money:money Block:block];
+}
+
+//退出登录接口
+- (void)logoutWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client logoutWithBlock:block];
+}
+
+//26.获取广告接口
+- (void)getAdWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client getAdWithBlock:block];
+}
+
+//27.手机活动详情接口
+- (void)getAdDetailWithActivityId:(NSString *)activityId Block:(void (^)(id JSON, NSError *error))block
+{
+    [client getAdDetailWithActivityId:activityId Block:block];
+}
+
+#pragma mark - 26.系统充值银行信息接口
+- (void)bankListWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client bankListWithBlock:block];
+}
+
+#pragma mark - 27.用户充值页面信息接口
+- (void)bankInfoWithBankCode:(NSString *)bankCode block:(void (^)(id JSON, NSError *error))block
+{
+    [client bankInfoWithBankCode:bankCode block:block];
+}
+
+#pragma mark - 28.充值确认接口
+- (void)loadConfirmWithBankCode:(NSString *)bankCode bankId:(NSString *)bankId bankIdInBankInfo:(NSString *)bankIdInBankInfo amount:(NSString *)amount block:(void (^)(id JSON, NSError *error))block
+{
+    [client loadConfirmWithBankCode:bankCode bankId:bankId bankIdInBankInfo:bankIdInBankInfo amount:amount block:block];
+}
+
+#pragma mark - 29.获取系统可绑定银行卡以及省份信息接口
+- (void)provinceListWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client provinceListWithBlock:block];
+}
+
+#pragma mark - 30.获取城市信息接口
+- (void)cityListWithProvince:(NSString *)province block:(void (^)(id JSON, NSError *error))block
+{
+    [client cityListWithProvince:province block:block];
+}
+
+#pragma mark - 31.添加银行信息接口
+- (void)addBankCardWithBankUniqueCode:(NSString *)bankUniqueCode province:(NSString *)province cityUniqueCode:(NSString *)cityUniqueCode branch:(NSString *)branch accountName:(NSString *)accountName account:(NSString *)account checkCode:(NSString *)checkCode bankCheckCode:(NSString *)bankCheckCode block:(void (^)(id JSON, NSError *error))block
+{
+    [client addBankCardWithBankUniqueCode:bankUniqueCode province:province cityUniqueCode:cityUniqueCode branch:branch accountName:accountName account:account checkCode:checkCode bankCheckCode:bankCheckCode block:block];
+}
+
+#pragma mark - 32.确认添加银行信息接口
+- (void)comfirmCardWithBankName:(NSString *)bankName bankId:(NSString *)bankId province:(NSString *)province provinceId:(NSString *)provinceId city:(NSString *)city cityId:(NSString *)cityId bankBranch:(NSString *)bankBranch account:(NSString *)account accountName:(NSString *)accountName addBankCode:(NSString *)addBankCode block:(void (^)(id JSON, NSError *error))block
+{
+    [client comfirmCardWithBankName:bankName bankId:bankId province:province provinceId:provinceId city:city cityId:cityId bankBranch:bankBranch account:account accountName:accountName addBankCode:addBankCode block:block];
+}
+
+#pragma mark - 33.验证最近添加的银行卡信息接口
+- (void)checkCardWithAccount:(NSString *)account accountName:(NSString *)accountName block:(void (^)(id JSON, NSError *error))block
+{
+    [client checkCardWithAccount:account accountName:accountName block:block];
+}
+
+#pragma mark - 34.判断用户是否需要输入最近绑定的卡号接口
+- (void)hasBindWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client hasBindWithBlock:block];
+}
+
+#pragma mark - 35.判断用户是否设置了提款密码接口
+- (void)hasWithdrawPwdWithBlock:(void (^)(id JSON, NSError *error))block
+{
+    [client hasWithdrawPwdWithBlock:block];
+}
+
+#pragma mark - 36.设置资金密码接口
+- (void)setWithdrawPwdWithNewPassword:(NSString *)newPassword block:(void (^)(id JSON, NSError *error))block
+{
+    [client setWithdrawPwdWithNewPassword:newPassword block:block];
+}
+
+@end

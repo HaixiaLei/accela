@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuidePageViewController">
+            <connections>
+                <outlet property="guideScrollView" destination="fUB-Rg-v4f" id="IDl-fA-Bqn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="images" destination="kys-SB-7jl" id="OQc-Sf-tGW"/>
+                <outletCollection property="images" destination="gh8-Fy-aNC" id="Ac3-on-h09"/>
+                <outletCollection property="images" destination="ESv-p7-j1I" id="A5z-DS-KZH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUB-Rg-v4f">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vwt-qv-6GQ">
+                            <rect key="frame" x="0.0" y="0.0" width="960" height="480"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kys-SB-7jl">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="320" id="8aW-gk-TDC"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gh8-Fy-aNC">
+                                    <rect key="frame" x="320" y="0.0" width="320" height="480"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ESv-p7-j1I">
+                                    <rect key="frame" x="640" y="0.0" width="320" height="480"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiy-PO-82Q">
+                                    <rect key="frame" x="711" y="344" width="179" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="179" id="42r-hI-6Qp"/>
+                                        <constraint firstAttribute="height" constant="42" id="tG7-EZ-Qho"/>
+                                    </constraints>
+                                    <state key="normal" image="guidePage_btn_begin.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="beginButtonAction:" destination="-1" eventType="touchUpInside" id="Gqw-Df-exO"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="ESv-p7-j1I" firstAttribute="leading" secondItem="gh8-Fy-aNC" secondAttribute="trailing" id="3ZY-ek-BAd"/>
+                                <constraint firstItem="kys-SB-7jl" firstAttribute="leading" secondItem="vwt-qv-6GQ" secondAttribute="leading" id="4ik-Sa-kbt"/>
+                                <constraint firstItem="gh8-Fy-aNC" firstAttribute="top" secondItem="vwt-qv-6GQ" secondAttribute="top" id="AbE-jC-P4P"/>
+                                <constraint firstAttribute="width" constant="960" id="AcF-DA-gK7"/>
+                                <constraint firstItem="kys-SB-7jl" firstAttribute="top" secondItem="vwt-qv-6GQ" secondAttribute="top" id="CmY-Hn-M2L"/>
+                                <constraint firstAttribute="trailing" secondItem="ESv-p7-j1I" secondAttribute="trailing" id="Gu6-vJ-9UI"/>
+                                <constraint firstAttribute="bottom" secondItem="fiy-PO-82Q" secondAttribute="bottom" constant="94" id="HOj-zu-vcK"/>
+                                <constraint firstAttribute="bottom" secondItem="kys-SB-7jl" secondAttribute="bottom" id="Mju-j9-Xlp"/>
+                                <constraint firstAttribute="trailing" secondItem="fiy-PO-82Q" secondAttribute="trailing" constant="70" id="OgF-53-Jt7"/>
+                                <constraint firstAttribute="bottom" secondItem="gh8-Fy-aNC" secondAttribute="bottom" id="P3h-rS-Asj"/>
+                                <constraint firstItem="gh8-Fy-aNC" firstAttribute="centerX" secondItem="vwt-qv-6GQ" secondAttribute="centerX" id="bYV-7q-GJn"/>
+                                <constraint firstItem="ESv-p7-j1I" firstAttribute="top" secondItem="vwt-qv-6GQ" secondAttribute="top" id="hxc-yw-d8Q"/>
+                                <constraint firstAttribute="bottom" secondItem="ESv-p7-j1I" secondAttribute="bottom" id="leA-8L-kCo"/>
+                                <constraint firstItem="gh8-Fy-aNC" firstAttribute="leading" secondItem="kys-SB-7jl" secondAttribute="trailing" id="t6H-sR-2mu"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="vwt-qv-6GQ" secondAttribute="trailing" id="6nk-r3-FNL"/>
+                        <constraint firstAttribute="bottom" secondItem="vwt-qv-6GQ" secondAttribute="bottom" id="H91-Ez-oRi"/>
+                        <constraint firstItem="vwt-qv-6GQ" firstAttribute="centerY" secondItem="fUB-Rg-v4f" secondAttribute="centerY" id="N9I-RR-nqm"/>
+                        <constraint firstItem="vwt-qv-6GQ" firstAttribute="top" secondItem="fUB-Rg-v4f" secondAttribute="top" id="tn9-Gn-PmG"/>
+                        <constraint firstItem="vwt-qv-6GQ" firstAttribute="leading" secondItem="fUB-Rg-v4f" secondAttribute="leading" id="zfH-da-Pn3"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="yzd-OY-FuE"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fUB-Rg-v4f" secondAttribute="trailing" id="9F1-Vz-C0f"/>
+                <constraint firstItem="fUB-Rg-v4f" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="u4l-AN-hv2"/>
+                <constraint firstItem="fUB-Rg-v4f" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xAY-tP-N7T"/>
+                <constraint firstAttribute="bottom" secondItem="fUB-Rg-v4f" secondAttribute="bottom" id="yl0-NL-xN1"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="guidePage_btn_begin.png" width="179" height="42"/>
+    </resources>
+</document>
